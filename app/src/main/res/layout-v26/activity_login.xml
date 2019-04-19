@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vios_health_partner"
+            android:textColor="#000000"
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:textColor="#000000"
+            android:textSize="27sp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:hint="@string/name"
+            android:textColor="#4D4545"
+            android:textColorHint="#4D4545"
+            android:textSize="17sp"
+            android:inputType=""
+            android:autofillHints="" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="#4D4545"
+            android:textColorHint="#4D4545"
+            android:textSize="17sp"
+            android:autofillHints="" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#DA1A1A"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/log_in"
+            android:textColor="#FFFFFF" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="210dp"
+                android:text="@string/forgot_password"
+                android:textColor="#5C5656"
+                android:textSize="10dp"
+                android:layout_marginStart="210dp" />
+
+            <ImageView
+                android:id="@+id/imageAgree"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/doneagree"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:id="@+id/textAgree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/imageAgree"
+                android:text="@string/i_agree_with_terms_amp_conditions"
+                android:layout_alignBottom="@id/imageAgree"
+                android:layout_toEndOf="@id/imageAgree" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textlogin"
+            android:layout_below="@id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in_with"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"/>
+    <LinearLayout
+        android:id="@+id/fbgoogle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/textlogin"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp">
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/facebook"
+            android:contentDescription="TODO" />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:contentDescription="TODO" />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/google"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fbgoogle"
+        android:textColor="#FFFFFF"
+        android:background="#DA1A1A"
+        android:layout_marginTop="40dp"
+
+        android:text="@string/new_health_partner_sign_up"
+        />
+
+</RelativeLayout>
