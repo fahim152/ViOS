@@ -3,7 +3,7 @@ package com.datasysbd.vios;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SplashScreen extends AppCompatActivity {
+public class Swipe1 extends AppCompatActivity {
 
 
 

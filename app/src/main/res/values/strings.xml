@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">ViOS</string>
+    <string name="health_partner_app">Health Partner App</string>
+    <string name="vios">ViOS</string>
+    <string name="todo">TODO</string>
+    <string name="vios_health_partner">VIOS HEALTH PARTNER</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="name">NAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="i_agree_with_terms_amp_conditions"><![CDATA[I agree with Terms & Conditions]]></string>
+    <string name="log_in_with">Log in with</string>
+    <string name="new_health_partner_sign_up">NEW HEALTH PARTNER SIGN UP</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
 </resources>
