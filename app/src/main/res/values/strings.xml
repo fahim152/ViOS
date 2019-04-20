@@ -12,10 +12,10 @@
     <string name="i_agree_with_terms_amp_conditions"><![CDATA[I agree with Terms & Conditions]]></string>
     <string name="log_in_with">Log in with</string>
     <string name="new_health_partner_sign_up">NEW HEALTH PARTNER SIGN UP</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+    <!--<string name="todo">TODO</string>-->
+    <!--<string name="todo">TODO</string>-->
+    <!--<string name="todo">TODO</string>-->
+    <!--<string name="todo">TODO</string>-->
+    <!--<string name="todo">TODO</string>-->
+    <!--<string name="todo">TODO</string>-->
 </resources>
