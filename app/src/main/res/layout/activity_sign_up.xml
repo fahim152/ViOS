@@ -21,10 +21,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="40dp"
-        android:textColor="#746868"
+        android:textColor="#1F1D1D"
         android:textSize="20dp"
         android:lines="2"
-        android:textStyle="bold"
         android:text="Thank you for your interest in joining the VIOS healthcare network"/>
 
     <TextView
