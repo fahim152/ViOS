@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <ImageButton
+        android:layout_width="87dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="300dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:textColor="#746868"
+        android:textSize="20dp"
+        android:lines="2"
+        android:textStyle="bold"
+        android:text="Thank you for your interest in joining the VIOS healthcare network"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:textColor="#746868"
+        android:textSize="20dp"
+        android:lines="10"
+        android:text="Please schedule an appointment with our signup agents so that your\n\nValid BMDC registration number\n\nSupporting professional documents\n\nCan be scanned,verified and integrated into your new VIOS Health partner profile"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="#DA1A1A"
+        android:text="register@vios.com"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
