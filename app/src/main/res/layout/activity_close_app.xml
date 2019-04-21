@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".CloseApp">
+
+    <TextView
+        android:id="@+id/textLoggedoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#708C99"
+        android:textSize="20sp"
+        android:lines="6"
+        android:textStyle="bold"
+        android:text="You have been logged off\n\nYou are no longer visible in the VIOS network\n\nThank you for your service"/>
+
+    <TextView
+        android:id="@+id/textTakerest"
+        android:layout_below="@id/textLoggedoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:textColor="#708C99"
+        android:textSize="20sp"
+        android:lines="5"
+        android:text="Take rest\nEat well\nExercise daily\n\nSEe you again"/>
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_toRightOf="@id/textTakerest"
+        android:src="@drawable/sponsored"
+        android:layout_marginTop="300dp"
+        android:contentDescription="TODO"
+        android:layout_toEndOf="@id/textTakerest" />
+    <Button
+        android:id="@+id/textcloseButton"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_margin="60dp"
+        android:background="#000000"
+        android:layout_below="@id/textTakerest"
+        android:text="CLOSE APP"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

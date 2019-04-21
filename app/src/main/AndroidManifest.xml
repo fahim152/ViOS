@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignUp"></activity>
+        <activity android:name=".HelloDoctor"></activity>
+        <activity android:name=".CloseApp" />
+        <activity android:name=".SignUp" />
         <activity android:name=".swipe4" />
         <activity android:name=".swipe3" />
         <activity android:name=".SplashScreen">

@@ -12,6 +12,13 @@
     <string name="i_agree_with_terms_amp_conditions"><![CDATA[I agree with Terms & Conditions]]></string>
     <string name="log_in_with">Log in with</string>
     <string name="new_health_partner_sign_up">NEW HEALTH PARTNER SIGN UP</string>
+    <string name="hello_doctor">Hello Doctor</string>
+    <string name="are_you_ready_to_see_your_patients_nnow">Are you ready to see your patients now?</string>
+    <string name="yes">YES</string>
+    <string name="not_right_now">Not right now</string>
+    <string name="you_have_been_logged_off_n_nyou_are_no_longer_visible_in_the_vioa_network_n_nthank_uou_for_your_service">You have been logged off  You are no longer visible in the VIOA network  Thank uou for your service</string>
+    <string name="take_rest_neat_well_nexercise_daily_n_nsee_you_again">Take rest Eat well Exercise daily  See you again!</string>
+    <string name="close_app">CLOSE APP</string>
     <!--<string name="todo">TODO</string>-->
     <!--<string name="todo">TODO</string>-->
     <!--<string name="todo">TODO</string>-->
